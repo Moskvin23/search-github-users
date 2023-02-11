@@ -1,0 +1,25 @@
+.container{
+  height: 80px;
+  margin-bottom: 50px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  gap:20px;
+  --webkit-box-shadow: -1px 26px 38px -10px rgba(212,199,249,1);
+  -moz-box-shadow: -1px 26px 38px -10px rgba(212,199,249,1);
+  box-shadow: -1px 26px 40px -32px rgba(212,199,249,1);
+  width: 100%;
+  .content{
+   display: flex;
+   align-items: center;
+   justify-content: start; 
+   gap: 25px;
+   
+  }
+  h4{
+    font-weight: 400;
+    font-size: 16px;
+    
+  }
+  
+}

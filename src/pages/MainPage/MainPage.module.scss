@@ -1,0 +1,35 @@
+.wrapper{
+ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 30px;
+  .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+}
+
+.wrapperWithLoading{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 30px;
+  input{
+    width: 90%;
+  }
+  .containerWithLoading{
+    max-width: 1000px;
+    padding-top: 100px;
+  }
+ .search{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ }
+  
+}

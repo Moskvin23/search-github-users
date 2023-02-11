@@ -1,0 +1,42 @@
+.container {
+ display: flex;
+ justify-content: space-between;
+align-items: center;
+gap: 15px;
+@media(max-width: 800px) {
+  display: flex;
+  justify-content: space-between;
+ align-items: center;
+}
+  .item{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 15px;
+    box-shadow: #ded6f3 0px 2px 8px 0px;
+    width: 240px;
+    .icon{
+      background-color: #ddd5f5;
+      width: 45px;
+    height: 45px;
+    border-radius: 50%;
+      font-size: 28px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    @media(max-width: 800px) {
+      width: 160px;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+    }
+  }
+ 
+  .valueWithLabel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+  }
+}
